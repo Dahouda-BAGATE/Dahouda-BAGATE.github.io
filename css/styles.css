@@ -1,0 +1,94 @@
+
+/* Importation - Police Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+* {
+    font-family: Open Sans;
+    margin: auto;
+
+}
+
+body {
+    background: linear-gradient(to bottom right, black, #181818);
+    
+    
+}
+
+/* Image arriere plan */
+header {
+    background: url(../img/arplan/arplan2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 850px;
+    /* border-bottom: solid #DD9B37 1px ; */
+
+}
+
+/* logo */
+header img {
+    position: absolute;
+    width: 86px;
+    height: 78px;
+    left: 100px;
+    top: 730px;
+}
+
+header p {
+    color: #DD9B37;
+}
+
+/* Nom */
+.nom {
+    position: absolute;
+    /* width: 370px; */
+    /* height: 89px; */
+    left: 215px;
+    top: 740px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.poste {
+    position: absolute;
+    /* width: 370px; */
+    /* height: 89px; */
+    left: 217px;
+    top: 785px;
+}
+
+section.nav {
+    background-color: black;
+    height: 40px;
+    /* border-radius: 20px ; */
+    /* margin: 10px; */
+
+}
+
+/* Mise en place du menu */
+section nav {
+    /* position: absolute; */
+    width: 700px;
+    height: 27px;
+    left: 227px;
+    top: 850px;
+    
+    /* background-color: aqua; */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 40px;
+    /* background-color: aqua; */ 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+   
+}
